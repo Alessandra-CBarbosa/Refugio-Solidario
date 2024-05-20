@@ -9,7 +9,7 @@ Colaboradores
 Agradecemos aos seguintes colaboradores por contribuírem para este projeto:
 
 Alessandra Cristine Cesar Barbosa, 
-Jefferson,
+Jefferson Christopher Jiménez Ribeiro,
 Laura Dayanne Rodrigues Gomes,
 Marcos Xavier e
 Nathália Gomes.
