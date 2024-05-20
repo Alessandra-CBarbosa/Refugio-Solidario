@@ -8,11 +8,11 @@ Colaboradores
 
 Agradecemos aos seguintes colaboradores por contribuírem para este projeto:
 
-Alessandra Cristine Cesar Barbosa
-Jefferson
-Laura Hulk
-Marcos Xavier
-Nathália Gomes
+Alessandra Cristine Cesar Barbosa, 
+Jefferson,
+Laura Dayanne Rodrigues Gomes,
+Marcos Xavier e
+Nathália Gomes.
 
 Sobre o Projeto
 
