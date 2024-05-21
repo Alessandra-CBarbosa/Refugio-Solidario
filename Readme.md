@@ -21,4 +21,4 @@ O Refúgio Solidário é uma plataforma inclusiva e acolhedora, onde as pessoas 
 
 Agradecemos a todos os envolvidos neste projeto e esperamos que o Refúgio Solidário possa fazer a diferença na vida das pessoas. 🌟
 
-<teste>
+
