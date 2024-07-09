@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a-href {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid;
+    border-radius: 10px;
+    width: 12rem;
+    padding: 0.5rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem;
+    background: #ffa704;
+    margin-top: .2rem;
+    margin-bottom: .2rem;    
+}
+header {
+    background: #fac000;
+    height: 100vh;
+}
+header img {
+    height: 100px;
+}
+
+.logo-whatsapp {
+    height: 30px;
+}
+
+/* CSS - footer */
+.rede-sociais {
+    height: 30px;
+
+}
+.a-href-footer {
+    text-decoration: none;
+    text-align: center;
+}
+
+footer img {
+    height: 100px;
+}
+
+.href-image-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#logo-projeto-RS-footer {
+    height: 80px;
+}
