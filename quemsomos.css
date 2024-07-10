@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: linear-gradient( to right,#fff8b1 , #ffd700);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 5px;
+    margin-top: 1.5px;
+}
+
+.logo-projeto-RS {
+    height: 100px;
+    padding: .5rem;
+    
+}
+
+.container {
+    position: relative;
+    background: #fff8b1;
+    margin-top: .2rem;
+
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+        
+}
+
+.quemSomos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.perfil {
+    height: 100px;
+}
+
+
+
+.missaoVisaoValores {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.column, .column-full {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.column-full {
+    flex: none;
+    width: 100%;
+}
+
+.mvv-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #ffd700;
+    width: 130px;
+    align-items: center;
+    text-align: center;
+}
+
+.text-m-v-v {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #555;
+    text-align: justify;
+}
+
+
+/* CSS footer */
+.footerMissaoVisaoValores {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( to left,#eee9b7 , #ffd700);
+}
+
+#logoProjetoFooter {
+    height: 80px;
+}
+
+.redeSociais {
+    height: 30px;
+    margin-left: .5rem;
+    
+}
+
+.redeSociais:hover {
+    background:#ffffff;
+    border-radius: 30px;
+    transition: .3s;
+}

@@ -36,6 +36,8 @@ header img {
     height: 30px;
 }
 
+
+
 /* CSS - footer */
 .rede-sociais {
     height: 30px;
@@ -46,9 +48,6 @@ header img {
     text-align: center;
 }
 
-footer img {
-    height: 100px;
-}
 
 .href-image-footer {
     display: flex;
