@@ -14,6 +14,24 @@ nav {
     margin-top: 1.5px;
 }
 
+/* Estilos aplicados no nav do body e footer */
+.links { 
+    text-decoration: none;
+    margin-left: .4rem;
+    color: #333;
+    font-weight: bold;
+    padding: .4rem;
+    
+}
+
+.links:hover {
+    border: #eee9b7;
+    background: #eee9b7;
+    transition: .5s;
+    border-radius: 5px;
+    
+}
+
 .logo-projeto-RS {
     height: 100px;
     padding: .5rem;
@@ -107,8 +125,9 @@ nav {
 }
 
 .redeSociais {
-    height: 30px;
+    height: 25px;
     margin-left: .5rem;
+    
     
 }
 
@@ -116,4 +135,5 @@ nav {
     background:#ffffff;
     border-radius: 30px;
     transition: .3s;
+    
 }
