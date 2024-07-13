@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    background: #faf5dc;
+}
+
+nav {
+    background: linear-gradient( to right,#fff8b1 , #ffd700);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 5px;
+    margin-top: 1.5px;
+}
+
+/* vamos ao css dos textos sobre a política de privacidade */
+
+.text-politica {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    gap: 5px;
+}
+
+.subtitulo-politica {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #fff098;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#email-rs {
+    text-decoration: none;
+}
+
+
+/* Aqui constam estilos tanto para nav, como para header e footer */
+.links { 
+    text-decoration: none;
+    margin-left: .4rem;
+    color: #333;
+    font-weight: bold;
+    padding: .4rem;
+    
+}
+
+.links:hover {
+    border: #eee9b7;
+    background: #eee9b7;
+    transition: .5s;
+    border-radius: 5px;
+    
+}
+
+.logo-projeto-RS {
+    height: 100px;
+    padding: .5rem;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;   
+}
+
+.container {
+    position: relative;
+    background: #fff8b1;
+    margin-top: .2rem;
+
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+        
+}
+
+
+/* CSS footer */
+.footer-politica-privacidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( to left,#eee9b7 , #ffd700);
+    gap: 10px;
+    padding: 5px;
+}
+
+#logoProjetoFooter {
+    height: 50px;
+    margin-top: 5px;
+}
+
+.redeSociais {
+    height: 25px;
+    margin-left: .5rem;
+}
+
+
+.redeSociais:hover {
+    background:#ffffff;
+    border-radius: 30px;
+    transition: .3s;   
+}
+
+#copyright {
+    margin-top: -.5%;
+}
