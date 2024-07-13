@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 nav {
     background: linear-gradient( to right,#fff8b1 , #ffd700);
     padding: 1rem;
@@ -35,6 +36,7 @@ nav {
 .logo-projeto-RS {
     height: 100px;
     padding: .5rem;
+    margin-bottom: 5px;
     
 }
 
@@ -55,17 +57,33 @@ nav {
         
 }
 
-.quemSomos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
+.container-quemSomos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .perfil {
-    height: 100px;
+    text-align: center;
+    background-color: #fff;
+    justify-content: space-evenly;
+    padding: -10%;
+
 }
 
+.perfil-imagem {
+    max-width: 100px;
+    height: auto;
+}
+
+
+.nome {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
 
 
 .missaoVisaoValores {
@@ -114,22 +132,26 @@ nav {
 
 /* CSS footer */
 .footerMissaoVisaoValores {
-    display: flex; 
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background: linear-gradient( to left,#eee9b7 , #ffd700);
+    gap: 10px;
+    padding: 5px;
 }
 
 #logoProjetoFooter {
-    height: 80px;
+    height: 50px;
+    margin-top: 5px;
 }
 
 .redeSociais {
+    justify-content: center;
     height: 25px;
-    margin-left: .5rem;
-    
-    
+    margin-left: .5rem; 
 }
+
 
 .redeSociais:hover {
     background:#ffffff;
