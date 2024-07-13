@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -82,7 +83,7 @@ nav {
 
 .nome {
     margin-top: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 
@@ -147,15 +148,17 @@ nav {
 }
 
 .redeSociais {
-    justify-content: center;
     height: 25px;
-    margin-left: .5rem; 
+    margin-left: .5rem;
 }
 
 
 .redeSociais:hover {
     background:#ffffff;
     border-radius: 30px;
-    transition: .3s;
-    
+    transition: .3s;   
+}
+
+#copyright {
+    margin-top: -.5%;
 }
