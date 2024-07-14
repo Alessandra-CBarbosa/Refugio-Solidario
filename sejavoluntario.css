@@ -42,9 +42,110 @@ body {
     margin-right: 20px; 
   }
 
-  footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background: #ffd700;
+  .rodape img.logo {
+    width: 80px; 
+    margin-bottom: 10px;
+    float:left;
+    
   }
+  
+  .rodape nav {
+    margin-bottom: 16px;
+   display: flex;
+   justify-content: center;
+    padding:30px;
+  }
+  
+  .rodape nav  a {
+    text-decoration: none; 
+    color: #000; 
+    margin: 0 10px;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+   
+  }
+  
+  
+  
+  
+  .rodape {
+    background-color: #FFD700; 
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient( to right,#fff8b1 , #ffd700  );
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  .rodape .icones-sociais {
+    
+    list-style-type: none;
+    margin-top: 10px; 
+  }
+  
+  .rodape .icones-sociais a {
+    margin: 0 10px; 
+   
+    
+  }
+  
+  .rodape .icones-sociais  img {
+    width: 50px; 
+    height: 50px;
+  
+   
+  }
+  
+  
+  .rodape .nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+    
+    
+  }
+  
+  .rodape .nav ul {
+    list-style-type: none;
+   
+  }
+  
+  .rodape .nav ul li {
+    margin-right: 20px; 
+    
+    
+  }
+  
+  
+  .rodape .direitos {
+    color: black; 
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .logo-RS{
+    
+    display:flex;
+    justify-content: flex-start;
+  }
+  
+  .icones .ul-incones{
+    display:flex;
+    justify-content:center;
+    margin-top: 0px;
+    align-items:center;
+    
+    
+  }
+  
+  .nav-icone{
+    display:flex;
+    justify-content: center;
+    
+  }
+  

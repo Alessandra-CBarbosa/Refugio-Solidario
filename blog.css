@@ -1,150 +1,136 @@
-* {
-    font-family:Arial, sans-serif;
-    color: #000000;
-    margin: 0;
-    padding: 0;
-  }
+* { /* header e barra de navegação*/
+  font-family:Arial, sans-serif;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
 
-  header {
-    background-color: #ffe082;
-    padding: 10px 0;
-    
-  }
-  .header .nav-item:hover {
-    border-bottom: 2px solid #ffb6c1;
-  }
-  .header .nav-item {
-    color: #808080;
-    margin-left: 10px;
-    text-decoration: none;
-  }
+body {
+  font-family: Arial, sans-serif;
+ 
+  margin: 0;
+  padding: 0;
+ /* background: linear-gradient(to bottom,#f0eeee ,#c5b97d); testando cor de fundo body*/
+  background-color: #f0eeee;
+}
+
+header {
+  background-color: #ffe082;
+  padding: 10px 0;
   
-  nav {
-    background: linear-gradient( to right,#fff8b1 , #ffd700  ); 
-    padding: 10px 0; 
-  }
-  
-  nav ul {
-    list-style-type: none; 
-    margin: 0;
-    padding: 0;
-    display: flex; 
-    justify-content:flex-end; 
-  }
-  
-  nav ul a {
-    text-decoration: none; 
-    color: #000000; 
-    font-weight: bold; 
-    margin-right: 20px; 
-  }
+}
 
 
 
-  .rodape img.logo {
-    width: 80px; 
-    margin-bottom: 10px;
-    float:left;
-    
-  }
+.header .nav-item:hover {
+  border-bottom: 2px solid #747263;
+  color: #808080;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+
+
+nav {
+  background: linear-gradient( to right,#fff8b1 , #ffd700  ); 
+  padding: 10px 0; 
   
-  .rodape nav {
-    margin-bottom: 16px;
-   display: flex;
-   justify-content: center;
-    padding:30px;
-  }
+}
+
+nav ul  {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content:flex-end; 
+}
+
+nav ul a  {
+  text-decoration: none; 
+  color: #000000; 
+  font-weight: bold; 
+  margin-right: 20px; 
+}
+
+
+
+
+
+  /* css footer definitivo*/
+.rodape {
+  background-color: #FFD700;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #fff8b1, #ffd700);
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo-RS img {
+  width: 70px;
+  height: 70px;
+  justify-content:flex-start;
+  display: flex;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.nav ul li {
+  margin-right: 20px;
+}
+
+.icones-sociais a {
+  margin: 0 10px;
   
-  .rodape nav  a {
-    text-decoration: none; 
-    color: #000; 
-    margin: 0 10px;
-    justify-content: center;
-    font-family: Arial, sans-serif;
-    display: flex;
-   
-  }
+}
+
+.icones-sociais img {
+  width: 30px;
+  height: 30px;
+ 
+
+ 
+ 
+}
+
+.direitos {
+  color: black;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
+.nav-icone{
+  display:flex;
+  justify-content: center;
   
+}
+.rodape .nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; 
   
-  
-  
-  .rodape {
-    background-color: #FFD700; 
-    padding: 5px;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient( to right,#fff8b1 , #ffd700  );
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    
-  }
-  
-  .rodape .icones-sociais {
-    
-    list-style-type: none;
-    margin-top: 10px; 
-  }
-  
-  .rodape .icones-sociais a {
-    margin: 0 10px; 
-   
-    
-  }
-  
-  .rodape .icones-sociais  img {
-    width: 50px; 
-    height: 50px;
-  
-   
-  }
-  
-  
-  .rodape .nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px; 
-    
-    
-  }
-  
-  .rodape .nav ul {
-    list-style-type: none;
-   
-  }
-  
-  .rodape .nav ul li {
-    margin-right: 20px; 
-    
-    
-  }
-  
-  
-  .rodape .direitos {
-    color: black; 
-    text-align: center;
-    font-size: 14px;
-  }
-  
-  .logo-RS{
-    
-    display:flex;
-    justify-content: flex-start;
-  }
-  
-  .icones .ul-incones{
-    display:flex;
-    justify-content:center;
-    margin-top: 0px;
-    align-items:center;
-    
-    
-  }
-  
-  .nav-icone{
-    display:flex;
-    justify-content: center;
-    
-  }
-  
+}
+
+.rodape nav {
+  margin-bottom: 16px;
+ display: flex;
+ justify-content: center;
+  padding:0px;
+}
+.nav-rodape:hover{
+  border-bottom: 2px solid #747263;
+  color: #808080;
+  margin-left: 10px;
+  text-decoration: none;
+
+}
