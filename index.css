@@ -5,16 +5,29 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* todo e qualquer outro link associado como o whatsapp */
 .a-href {
     text-decoration: none;
     display: flex;
     align-items: center;
+    background: #fff8b1;
+    border-radius: 15px;
     justify-content: center;
-    border: solid;
-    border-radius: 10px;
     width: 12rem;
     padding: 0.5rem;
+    margin-top: 0.5rem;
+    color: black;
+    gap: 5px;
+    font-weight: 700;
 }
+
+.a-href:hover {
+    border: #eee9b7;
+    background: #ffffff;
+    transition: .5s;
+    border-radius: 15px;
+}
+
 .navgation {
     background: linear-gradient( to right,#fff8b1 , #ffd700);
     padding: 1rem;
@@ -27,6 +40,8 @@
     margin-right: 0.2rem;
 }
 
+
+/* refere-se aos links do navgation */
 .links { 
     text-decoration: none;
     margin-left: .4rem;
@@ -51,6 +66,7 @@
     margin-top: 5px;   
 }
 
+/* configuração do header */
 #container {
     display: flex;
     justify-content: center;
@@ -90,30 +106,53 @@
     z-index: 1;
 }
 
+/* definição padrão para o tamanho de todas as logos do whatsapp */
 .logo-whatsapp {
     height: 30px;
 }
 
-
-
-/* CSS - footer */
-.rede-sociais {
-    height: 30px;
-
-}
-.a-href-footer {
-    text-decoration: none;
-    text-align: center;
-}
-
-
-.href-image-footer {
+.resumo-atendimento {
+    border: solid 1px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding: .5rem;
+
 }
 
-#logo-projeto-RS-footer {
-    height: 80px;
+/* CSS - footer */
+.footer-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( to left,#eee9b7 , #ffd700);
+    gap: 10px;
+    padding: 5px;
+}
+
+
+#logoProjetoFooter {
+    height: 50px;
+    margin-top: 5px;
+}
+
+
+.redeSociais {
+    height: 25px;
+    margin-left: .5rem;
+}
+
+
+.redeSociais:hover {
+    background:#ffffff;
+    border-radius: 30px;
+    transition: .3s;   
+}
+
+#copyright {
+    margin-top: -.5%;
 }
