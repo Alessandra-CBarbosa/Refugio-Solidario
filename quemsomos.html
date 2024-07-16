@@ -7,14 +7,14 @@
     <title>Quem Somos</title>
 </head>
 <body>
-    <nav align="right">
+    <nav>
   
         <ul>
-            <a href="index.html">Início</a>
-            <a href="blog.html">Blog</a>
-            <a href="quemsomos.html">Quem Somos</a>
-            <a href="sejavoluntario.html">Voluntário</a>
-            <a href="contato.html">Contato</a>
+            <a class="links"  href="index.html">Início</a>
+            <a class="links" href="blog.html">Blog</a>
+            <a class="links" href="quemsomos.html">Quem Somos</a>
+            <a class="links" href="sejavoluntario.html">Voluntário</a>
+            <a class="links" href="contato.html">Contato</a>
         </ul>
 
     </nav>  
@@ -28,13 +28,27 @@
    </header>
    
    <main>
-        <div class="quemSomos">
-            <img class="perfil" src="./img/perfil-cris-projeto-RS .png">Alessandra Cristine
-            <img class="perfil" src="./img/perfil-jeffers-projeto-RS.png">Jefferson Jimenez
-            <img class="perfil" src="./img/perfil-laura-projeto-RS.png">Laura Hulk
-            <img class="perfil" src="./img/perfil-marcos-projeto-RS.png">Marcos Xavier
+        <div class="container-quemSomos">
+          <div class="perfil">
+            <img class="perfil-imagem" src="./img/perfil-cris-projeto-RS .png">
+            <p class="nome">Alessandra Cristine</p>
         </div>
-        
+        <div class="perfil">
+          <img class="perfil-imagem" src="./img/perfil-jeffers-projeto-RS.png">
+          <p class="nome">Jefferson Jimenez</p>
+        </div>
+            
+        <div class="perfil">
+          <img class="perfil-imagem" src="./img/perfil-laura-projeto-RS.png">
+          <p class="nome">Laura Hulk</p>
+        </div>
+           
+        <div class="perfil">
+            <img class="perfil-imagem" src="./img/perfil-marcos-projeto-RS.png">
+            <p class="nome">Marcos Xavier</p>
+        </div>
+      </div>
+
         <section class="missaoVisaoValores">
             <div class="row">
               <div class="column">
@@ -62,27 +76,31 @@
    </main>
 
    <footer class="footerMissaoVisaoValores">
-    <img id="logoProjetoFooter" src="./img/logo-projeto-RS.png" alt="Logo do projeto refugio solidario">
+        <img id="logoProjetoFooter" src="./img/logo-projeto-RS.png" alt="Logo do projeto refugio solidario">
     <ul>
-        <a href="index.html">Início</a>
-        <a href="blog.html">Blog</a>
-        <a href="quemsomos.html">Quem Somos</a>
-        <a href="sejavoluntario.html">Voluntário</a>
-        <a href="contato.html">Contato</a>
-        <a href="politica-de-privacidade.html" target="_blank">Política de Privacidade</a>
+        <a class="links" href="index.html">Início</a>
+        <a class="links" href="blog.html">Blog</a>
+        <a class="links" href="quemsomos.html">Quem Somos</a>
+        <a class="links" href="sejavoluntario.html">Voluntário</a>
+        <a class="links" href="contato.html">Contato</a>
+        <a class="links" href="politica-de-privacidade.html" target="_blank">Política de Privacidade</a>
     </ul>
 
     <div>        
         <a href="mailto:refugiosolidariors@hotmail.com" target="_blank"><img class="redeSociais" src="./img/outlook.png"></a>
+
         <a href="https://chat.whatsapp.com/EjysNylrMnWJBfVH6kDqSL" target="_blank"><img class="redeSociais" src="./img/whatsapp-dark.png" alt="logo-whatsapp"></a>
-		<a href="facebook.com/refugiosolidario" target="_blank"><img class="redeSociais" src="./img/facebook-dark.png" alt="logo-whatsapp"></a>
-		<a href="https://www.instagram.com/refugiosolidariors" target="_blank"><img class="redeSociais" src="./img/instagram.png" alt="logo-whatsapp"></a>
+
+        <a href="facebook.com/refugiosolidario" target="_blank"><img class="redeSociais" src="./img/facebook-dark.png" alt="logo-whatsapp"></a>
+
+        <a href="https://www.instagram.com/refugiosolidariors" target="_blank"><img class="redeSociais" src="./img/instagram.png" alt="logo-whatsapp"></a>
+
         <a href="https://github.com/Alessandra-CBarbosa/Refugio-Solidario.git" target="blank"><img class="redeSociais" src="./img/github.png"></a>
     
     </div>
-
-    <p>© 2024 Feito com ❤ | Todos os direitos reservados.</p>
-
+    <div id="copyright">
+      <p>© 2024 Feito com ❤ | Front-end Developer | Todos os direitos reservados.</p>
+    </div>
    </footer>
 </body>
 </html>

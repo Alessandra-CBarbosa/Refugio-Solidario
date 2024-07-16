@@ -5,6 +5,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html {
+    background: #faf5dc;
+}
 
 nav {
     background: linear-gradient( to right,#fff8b1 , #ffd700);
@@ -16,7 +19,37 @@ nav {
     margin-top: 1.5px;
 }
 
-/* Estilos aplicados no nav do body e footer */
+/* vamos ao css dos textos sobre a política de privacidade */
+
+.text-politica {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    gap: 5px;
+}
+
+.subtitulo-politica {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #fff098;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#email-rs {
+    text-decoration: none;
+}
+
+
+/* Aqui constam estilos tanto para nav, como para header e footer */
 .links { 
     text-decoration: none;
     margin-left: .4rem;
@@ -38,7 +71,8 @@ nav {
     height: 100px;
     padding: .5rem;
     margin-bottom: 5px;
-    
+    margin-left: 5px;
+    margin-top: 5px;   
 }
 
 .container {
@@ -58,81 +92,9 @@ nav {
         
 }
 
-.container-quemSomos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    padding: 20px;
-    margin-bottom: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.perfil {
-    text-align: center;
-    background-color: #fff;
-    justify-content: space-evenly;
-    padding: -10%;
-
-}
-
-.perfil-imagem {
-    max-width: 100px;
-    height: auto;
-}
-
-
-.nome {
-    margin-top: 10px;
-    font-size: 1rem;
-}
-
-
-.missaoVisaoValores {
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-  
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.column, .column-full {
-    flex: 1;
-    margin: 0 10px;
-}
-
-.column-full {
-    flex: none;
-    width: 100%;
-}
-
-.mvv-title {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background: #ffd700;
-    width: 130px;
-    align-items: center;
-    text-align: center;
-}
-
-.text-m-v-v {
-    font-size: 1em;
-    line-height: 1.5;
-    color: #555;
-    text-align: justify;
-}
-
 
 /* CSS footer */
-.footerMissaoVisaoValores {
+.footer-politica-privacidade {
     display: flex;
     flex-direction: column;
     align-items: center;

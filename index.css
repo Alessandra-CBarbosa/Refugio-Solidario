@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .a-href {
@@ -9,27 +10,84 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     border: solid;
     border-radius: 10px;
     width: 12rem;
     padding: 0.5rem;
 }
-nav {
+.navgation {
+    background: linear-gradient( to right,#fff8b1 , #ffd700);
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 1rem;
-    background: #ffa704;
-    margin-top: .2rem;
-    margin-bottom: .2rem;    
+    border-radius: 5px;
+    margin-top: 1.5px;    
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
 }
-header {
-    background: #fac000;
-    height: 100vh;
+
+.links { 
+    text-decoration: none;
+    margin-left: .4rem;
+    color: #333;
+    font-weight: bold;
+    padding: .4rem;
+    
 }
-header img {
+
+.links:hover {
+    border: #eee9b7;
+    background: #eee9b7;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.logo-projeto-RS {
     height: 100px;
+    padding: .5rem;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;   
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da janela */
+    background: #ffe96f;
+    margin-top: .2rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    background-size: cover;
+}
+
+.container-image {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 117vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    left: 12%;
+    z-index: 1;
+    opacity: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.text-container {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    padding: 20px;
+    text-align: justify;
+    z-index: 1;
 }
 
 .logo-whatsapp {
