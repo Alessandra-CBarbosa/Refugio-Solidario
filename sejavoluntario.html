@@ -8,34 +8,40 @@
 <body>
     
 
-    <section style="background-color:#fdc693;">
-    <header>
-       
+    
+      <header class = "header">
         <nav>
-            
-            <ul>
-                <a href="index.html">Início</a>
-                <a href="blog.html">Blog</a>
-                <a href="quemsomos.html">Quem Somos</a>
-                <a href="sejavoluntario.html">Voluntário</a>
-                <a href="contato.html">Contato</a>
-            </ul>
+          <ul>
+            <a href="index.html" class="nav-item">Início</a>
+            <a href="blog.html" class="nav-item">Blog</a>
+            <a href="quemsomos.html" class="nav-item">Quem Somos</a>
+            <a href="sejavoluntario.html" class="nav-item">Voluntário</a>
+            <a href="#contato" class="nav-item">Contato</a>
+          </ul>
         </nav>
-        <img src="./img/logo-projeto-RS.png" alt="Logo do projeto refugio solidario" width="150" height="150"><center style="color:#ffffff ;">Faça parte da nossa equipe</center>
-        
-    </header>
-
+          <div class=" logo">
+        <img
+          src="./img/logo-projeto-RS.png"
+          alt="Logo do projeto refugio solidario"
+          width="80"
+          height="80"
+        />
+      </div>
+      <div class="texto-voluntariado">
+       <h2>VOLUNTARIADO</h2>
+       <ul>
+           <ol>O voluntariado do refugio solidário doa o seu</ol>
+           <ol> tempo - 4 horas semanais - para conversar</ol>
+           <ol>com outra pessoa pelo o computador, celular,</ol>
+           <ol>tablet ou notebook, de forma anônima, sigilosa,</ol>
+           <ol> sem julgamentos ou críticas.</ol>
+          
+       </ul> 
+      </div>
+      </header>
   
     
-       <center> <h2>VOLUNTARIADO</h2></center>
-       <center> <ul>
-            <ol>O voluntariado do refugio solidário doa o seu</ol>
-            <ol> tempo - 4 horas semanais - para conversar</ol>
-            <ol>com outra pessoa pelo o computador, celular,</ol>
-            <ol>tablet ou notebook, de forma anônima, sigilosa,</ol>
-            <ol> sem julgamentos ou críticas.</ol>
-           
-        </ul></center>
+      
         <br/><br/><br/>
     </section>
 
@@ -70,46 +76,66 @@
         </form>
     </section>
     <section id="ajuda">
-        <p> Precisa de ajuda?</p>
-        <br/>
-        <h2><strong> Estamos aqui para ajudar.</strong></h2>
-        <p> Você será atendido por um voluntário especialmente treinado para esse fim, isto é, sem perguntas, com respeito e sigílo absoluto.</p>
-        <br/>
-        <img src="./img/whatsapp-dark.png" alt="imagem que representa o simbolo do whatsapp"width="75" height="75"> Entre em contato conosco<br/>
-        <br/>
-        <img  src="./Pagina-contatos-imagem/images.jpeg" alt="Três pessoas conversando">
+      <div class="div-ajuda">
+        <div class="paragrafo-ajuda">
+      <p>Precisa de ajuda?</p>
+      </div>
+      <div class ="titulo-ajuda">
+      <h2> Estamos aqui para ajudar.</h2>
+      </div>
+      <div class="texto-ajuda">
+      <p>
+        Você será atendido por um voluntário especialmente treinado para esse
+        fim, isto é, sem perguntas, com respeito e sigílo absoluto.
+      </p>
+    </div>
+   
+      <img class="imagem-whatsapp"
+        src="./img/whatsapp-dark.png"
+        alt="imagem que representa o simbolo do whatsapp"
+        width="30"
+        height="30"
+      >  Entre em contato conosco
+  
+      
+      <img class="img-pessoas-ajuda"
+        src="./img/homem-mulheres.png"
+        alt="Três pessoas conversando"
+      >
+    
     </section>
          <br/>
 
-         <footer class="rodape">
+         <section id="footer-rodape">
+          <footer class="rodape">
             <div class= "logo-RS">
               <img
                 src="./img/logo-projeto-RS.png"
                 alt="Logo do projeto refugio solidario"
-                width="150"
-                height="150"
+                width="70"
+                height="70"
               />
             </div>
             <nav cass="nav">
-              <div>
+              <div >
                 <ul>
                   <ol>
-                    <a href="index.html">Início</a>
+                    <a href="index.html"class="nav-rodape">Início</a>
                   </ol>
                   <ol>
-                    <a href="blog.html">Blog</a>
+                    <a href="blog.html"class="nav-rodape">Blog</a>
                   </ol>
                   <ol>
-                    <a href="quemsomos.html">Quem Somos</a>
+                    <a href="quemsomos.html"class="nav-rodape">Quem Somos</a>
                   </ol>
                   <ol>
-                    <a href="sejavoluntario.html">Voluntário</a>
+                    <a href="sejavoluntario.html"class="nav-rodape">Voluntário</a>
                   </ol>
                   <ol>
-                    <a href="contato.html">Contato</a>
+                    <a href="contato.html"class="nav-rodape">Contato</a>
                   </ol>
                   <ol>
-                    <a href="politica-de-privacidade.html" target="_blank"
+                    <a href="politica-de-privacidade.html"class="nav-rodape" target="_blank"
                       >Política de Privacidade</a
                     >
                   </ol>
@@ -120,35 +146,35 @@
               <div class="icones">
                 <ul class="ul-incones">
                   <a  href="mailto:refugiosolidariors@hotmail.com" target="_blank"
-                    ><img src="./img/outlook.png" width="50" height="50" />
+                    ><img class=" imagemSociais" src="./img/outlook.png" width="30" height="30" />
                   </a>
                    <a 
                     href="https://chat.whatsapp.com/EjysNylrMnWJBfVH6kDqSL"
                     target="_blank"
-                    ><img
+                    ><img class=" imagemSociais"
                       src="./img/whatsapp-dark.png"
                       alt="logo-whatsapp"
-                      width="50"
-                      height="50"
+                      width="30"
+                      height="30"
                   /></a>
                   <a  href="facebook.com/refugiosolidario" target="_blank"
-                    ><img
+                    ><img class=" imagemSociais"
                       src="./img/facebook-dark.png"
                       alt="logo-whatsapp"
-                      width="50"
-                      height="50"
+                      width="30"
+                      height="30"
                   /></a>
-                  <a  href="https://www.instagram.com/refugiosolidariors" target="_blank"
-                    ><img
+                  <a  href="https://www.instagram.com/refugiosolidariors/" target="_blank"
+                    ><img class=" imagemSociais"
                       src="./img/instagram.png"
                       alt="logo-whatsapp"
-                      width="50"
-                      height="50"
+                      width="30"
+                      height="30"
                   /></a>
                    <a 
                     href="https://github.com/Alessandra-CBarbosa/Refugio-Solidario.git"
                     target="blank"
-                    ><img src="./img/github.png" width="50" height="50"
+                    ><img class=" imagemSociais"src="./img/github.png" width="30" height="30"
                   /></a>
                 </ul>
               </div>
@@ -158,5 +184,6 @@
             </div>
           </footer>
         </section>
-        </body>
-        </html>
+      </body>
+    </html>
+    

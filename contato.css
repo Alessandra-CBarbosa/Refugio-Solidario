@@ -1,26 +1,181 @@
 * {
-  font-family:Arial, sans-serif;
+  font-family: Arial, sans-serif;
   color: #000000;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: Arial, sans-serif;
- 
+  
   margin: 0;
   padding: 0;
- /* background: linear-gradient(to bottom,#f0eeee ,#c5b97d); testando cor de fundo body*/
-  background-color: #f0eeee;
+
+  background-color: #ffffcc;
 }
+
+.titulo-contato {
+  font-size: 10px;
+  text-align: left;
+
+  height: 10px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.titulo-conosco {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 40px;
+  height: 20px;
+  width: 200px;
+  background-color: #ffe082;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 30px 30px;
+}
+.duvida-sugestao {
+  font-size: 16px;
+  text-align: left;
+  height: 10px;
+  margin-left: 85px;
+  margin-top: 20px;
+}
+.email {
+  font-size: 16px;
+  text-align: left;
+  height: 10px;
+  margin-left: 85px;
+  margin-top: 100px;
+}
+.Formulario-email {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 85px;
+  margin-top: 20px;
+}
+
+.Formulario-email input,
+.Formulario-email textarea {
+  display: block;
+  margin-bottom: 10px; 
+  width:25%; 
+  box-sizing: border-box; 
+  color: #353333; 
+  border: 1px solid #6b6a6a; 
+  border-radius: 5px; 
+  padding: 10px; 
+}
+
+
+.botao-email {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #fff8b1, #ffe082);
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  border: none;
+  margin-left: 85px;
+  margin-top: 50px;
+}
+.botao-email button {
+  color: gray;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.localizacao {
+  font-size: 16px;
+  text-align: left;
+  height: 10px;
+  margin-left: 85px;
+  margin-top: 55px;
+}
+.imagem-localizacao{
+ 
+  
+  margin-left: 85px;
+  margin-top: 55px;
+
+}
+
+.div-ajuda{
+  background: linear-gradient(to right, #fff8b1, #ffe082);
+  padding:3px;
+  margin-bottom:55px;
+
+  }
+  
+  
+.paragrafo-ajuda{
+  font-size: 16px;
+  text-align: left;
+  height: 10px;
+  margin-left: 85px;
+  margin-top:80px;
+  font-weight: bold;
+}
+
+.titulo-ajuda{
+  font-size:20px;
+  text-align: left;
+  height: 10px;
+  margin-left: 85px;
+  margin-top:30px;
+  font-weight: bold;
+
+}
+
+.texto-ajuda{
+  font-size:16px;
+  text-align: left;
+  height: 10px;
+  margin-left: 85px;
+  margin-top:35px;
+  padding-right:55%;
+  
+
+
+}
+.imagem-whatsapp{
+
+  margin-left: 85px;
+  margin-top: 55px;
+ 
+  
+}
+
+#ajuda {
+  position:relative;
+  margin-bottom:0px;
+  padding: 0;
+  margin-top: auto;
+
+
+}
+
+.img-pessoas-ajuda {
+    position: absolute;
+    top:57%; 
+    right:0;
+    transform: translateY(-50%);
+    z-index: 1;
+    margin-bottom:20px;
+    width: 500px;
+    height:auto;
+    max-width: 100%;
+  }
+
+
 
 header {
   background-color: #ffe082;
   padding: 10px 0;
-  
 }
-
-
 
 .header .nav-item:hover {
   border-bottom: 2px solid #747263;
@@ -29,84 +184,45 @@ header {
   text-decoration: none;
 }
 
-
-
 nav {
-  background: linear-gradient( to right,#fff8b1 , #ffd700  ); 
-  padding: 10px 0; 
-  
+  background: linear-gradient(to right, #fff8b1, #ffd700);
+  padding: 10px 0;
 }
 
-nav ul  {
-  list-style-type: none; 
+nav ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; 
-  justify-content:flex-end; 
-}
-
-nav ul a  {
-  text-decoration: none; 
-  color: #000000; 
-  font-weight: bold; 
-  margin-right: 20px; 
-}
-
-
-/* Seção de contato , ainda estou trabvalhando nessa parte, faltam muitos ajustes, por teste a principio fiz assim, mas vou modificar tudo com estilizações melhores*/
-section.contato {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Formulário de contato ,ainda estou trabvalhando nessa parte, faltam muitos ajustes, por teste a principio fiz assim, mas vou modificar tudo com estilizações melhores*/
-form {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
 }
 
-form label {
-  margin-bottom: 5px;
+nav ul a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  margin-right: 20px;
 }
 
-form input,
-form select,
-form textarea {
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
+/* Aqui está o footer*/
 
-/* Botão de ajuda,ainda estou trabvalhando nessa parte, faltam muitos ajustes, por teste a principio fiz assim, mas vou modificar tudo com estilizações melhores*/ */
-button.ajuda {
-  background-color: #bd941a;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-
-
-
-/* css footer definitivo*/
-.rodape {
-  background-color: #FFD700;
-  padding: 5px;
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(to right, #fff8b1, #ffd700);
-  width: 100%;
-  justify-content: center;
-  text-align: center;
-}
-
+  .rodape {
+    background-color: #FFD700;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #fff8b1, #ffd700);
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+  }
+  
 .logo-RS img {
   width: 70px;
   height: 70px;
-  justify-content:flex-start;
+  justify-content: flex-start;
   display: flex;
 }
 
@@ -123,16 +239,11 @@ button.ajuda {
 
 .icones-sociais a {
   margin: 0 10px;
-  
 }
 
 .icones-sociais img {
   width: 30px;
   height: 30px;
- 
-
- 
- 
 }
 
 .direitos {
@@ -141,30 +252,27 @@ button.ajuda {
   font-size: 14px;
 }
 
-
-
-.nav-icone{
-  display:flex;
+.nav-icone {
+  display: flex;
   justify-content: center;
-  
 }
+
 .rodape .nav {
   display: flex;
   justify-content: center;
-  margin-top: 10px; 
-  
+  margin-top: 10px;
 }
 
 .rodape nav {
   margin-bottom: 16px;
- display: flex;
- justify-content: center;
-  padding:0px;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
 }
-.nav-rodape:hover{
+
+.nav-rodape:hover {
   border-bottom: 2px solid #747263;
   color: #808080;
   margin-left: 10px;
   text-decoration: none;
-
 }

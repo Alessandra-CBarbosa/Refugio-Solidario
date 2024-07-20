@@ -30,53 +30,71 @@
     </header>
     <main>
       <section id="contato">
-        <h2>CONTATO</h2>
-        <br />
-        <p><strong> FALE CONOSCO </strong></p>
-        <p>Tem alguma dúvida ou sugestão?</p>
-        <br />
-        <p><strong> Email </strong></p>
-        <form action="destino_do_formulario.php" method="post">
-          <input type="text" id="nome" name="nome" placeholder="Nome" />
-          <input type="email" id="email" name="email" placeholder="Email" />
-          <button type="submit">Enviar</button>
+        <div class= "titulo-contato">
+        <h2>CONTATO</h2></div>
+        <div class= "titulo-conosco">
+        <p><strong> FALE CONOSCO </strong></p></div>
+        <div class=" duvida-sugestao">
+   
+        <p>Tem alguma dúvida ou sugestão?</p></div>
+        <div class="email">
+        <p><strong> Deixe sua sugestão: </strong></p>
+        </div>
+        
+        <div class="Formulario-email">
+        <input type="text" id="nome" name="nome" placeholder="Nome" />
+    <input type="email" id="email" name="email" placeholder="Email" />
+    <textarea id="sugestao" name="sugestao" placeholder="Sugestão" rows="8"></textarea>
+    </div>
+      
+
         </form>
-        <button onclick="location.href='mailto:refugiosolidariors@hotmail.com'">
-          Enviar Email
-        </button>
+        <div class="botao-email">
+          <button onclick="location.href='mailto:refugiosolidariors@hotmail.com'">
+              Enviar Email
+          </button>
+      </div>
+        <div class =" localizacao">
         <p><strong> Localização </strong></p>
-        <img
+        </div>
+        <img class="imagem-localizacao"
           src="./img/localizacao.png"
           alt="Essa é uma imagem que representa uma determinada localização"
-          width="75"
-          height="75"
-        />
-        Brasil
+          width="30"
+          height="30"
+        > BRASIL
       </section>
 
       <section id="ajuda">
+        <div class="div-ajuda">
+          <div class="paragrafo-ajuda">
         <p>Precisa de ajuda?</p>
-        <br />
-        <h2><strong> Estamos aqui para ajudar.</strong></h2>
+        </div>
+        <div class ="titulo-ajuda">
+        <h2> Estamos aqui para ajudar.</h2>
+        </div>
+        <div class="texto-ajuda">
         <p>
           Você será atendido por um voluntário especialmente treinado para esse
           fim, isto é, sem perguntas, com respeito e sigílo absoluto.
         </p>
-        <br />
-        <img
+      </div>
+     
+        <img class="imagem-whatsapp"
           src="./img/whatsapp-dark.png"
           alt="imagem que representa o simbolo do whatsapp"
-          width="75"
-          height="75"
-        />
-        Entre em contato conosco<br />
-        <br />
-        <img
-          src="./Pagina-contatos-imagem/images.jpeg"
+          width="30"
+          height="30"
+        >  Entre em contato conosco
+    
+        
+        <img class="img-pessoas-ajuda"
+          src="./img/homem-mulheres4.png"
           alt="Três pessoas conversando"
-        />
+        >
+      
       </section>
-      <br /> 
+      
     </main>
     <section id="footer-rodape">
       <footer class="rodape">

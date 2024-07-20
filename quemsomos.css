@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 nav {
     background: linear-gradient( to right,#fff8b1 , #ffd700);
@@ -16,28 +14,9 @@ nav {
     margin-top: 1.5px;
 }
 
-/* Estilos aplicados no nav do body e footer */
-.links { 
-    text-decoration: none;
-    margin-left: .4rem;
-    color: #333;
-    font-weight: bold;
-    padding: .4rem;
-    
-}
-
-.links:hover {
-    border: #eee9b7;
-    background: #eee9b7;
-    transition: .5s;
-    border-radius: 5px;
-    
-}
-
 .logo-projeto-RS {
     height: 100px;
     padding: .5rem;
-    margin-bottom: 5px;
     
 }
 
@@ -58,33 +37,17 @@ nav {
         
 }
 
-.container-quemSomos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    padding: 20px;
-    margin-bottom: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
+.quemSomos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
 }
 
 .perfil {
-    text-align: center;
-    background-color: #fff;
-    justify-content: space-evenly;
-    padding: -10%;
-
+    height: 100px;
 }
 
-.perfil-imagem {
-    max-width: 100px;
-    height: auto;
-}
-
-
-.nome {
-    margin-top: 10px;
-    font-size: 1rem;
-}
 
 
 .missaoVisaoValores {
@@ -133,32 +96,24 @@ nav {
 
 /* CSS footer */
 .footerMissaoVisaoValores {
-    display: flex;
-    flex-direction: column;
+    display: flex; 
     align-items: center;
     justify-content: center;
     background: linear-gradient( to left,#eee9b7 , #ffd700);
-    gap: 10px;
-    padding: 5px;
 }
 
 #logoProjetoFooter {
-    height: 50px;
-    margin-top: 5px;
+    height: 80px;
 }
 
 .redeSociais {
-    height: 25px;
+    height: 30px;
     margin-left: .5rem;
+    
 }
-
 
 .redeSociais:hover {
     background:#ffffff;
     border-radius: 30px;
-    transition: .3s;   
-}
-
-#copyright {
-    margin-top: -.5%;
+    transition: .3s;
 }
