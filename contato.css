@@ -105,7 +105,7 @@ body {
 
 .div-ajuda{
   background: linear-gradient(to right, #fff8b1, #fada79);
-  padding:3px;
+  padding:1rem;
   margin-bottom:40px;
 
   }
@@ -158,14 +158,14 @@ body {
 
 }
 
+/* Cris aqui também tive que mudar só o top de 57 para 55, pouca coisa */
 .img-pessoas-ajuda {
     position: absolute;
-    top:57%; 
+    top:55%; 
     right:0;
     transform: translateY(-50%);
     z-index: 1;
     margin-bottom:20px;
-    width: 500px;
     height:auto;
     max-width: 100%;
   }

@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #fdda3f;
+    background: #fff8b1;
     border-radius: 10px;
     width: 12rem;
     padding: 0.5rem;
@@ -21,6 +21,7 @@
     color: black;
     gap: 5px;
     font-weight: 700;
+    font-family:Arial, sans-serif;
 }
 
 .a-href:hover {
@@ -49,7 +50,7 @@ nav {
     color: #333;
     font-weight: bold;
     padding: .4rem;
-    
+    font-family:Arial, sans-serif;
 }
 
 .links:hover {
@@ -68,24 +69,52 @@ nav {
     margin-top: 5px;   
 }
 
+
 /* configuração do header */
-#container {
+.container {
+    position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
     height: 100vh;
     background: #ffe96f;
-    padding: 1rem;
-    background: #ffa704;
     margin-top: .1rem;
-    margin-bottom: .2rem;    
+
 }
+
+
+.text-container {
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 50%;
+}
+
+.text-container h1 {
+    margin: 10px;
+    font-size: 2em;
+}
+
+.text-container p {
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.container-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    opacity: 0.6;
+}
+
 header {
     background: #fac000;
-    height: 100vh;
-}
-header img {
-    height: 100px;
 }
 
 /* definição padrão para o tamanho de todas as logos do whatsapp */
@@ -98,7 +127,6 @@ header img {
     display: flex;
     justify-content: space-around;
     padding: 40px;
-    
 }
 
 .resumo-atendimento {
@@ -107,8 +135,7 @@ header img {
     padding: 20px;
     text-align: center;
     width: 22%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   
 }
 
 
@@ -116,8 +143,6 @@ header img {
     transform: scale(1.2);
     transition: transform 0.5s ease;
 }
-
-
 
 .resumo-atendimento h2 {
     font-size: 2rem;
@@ -199,19 +224,19 @@ header img {
 
 .img-apoio {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row-reverse;
 }
 
-.tam-img-apoio {
+.img-icon-message {
     height: 12rem;
-    margin-left: 5rem;
+    margin-left: 1rem;
 }
 
-.tam-img-apoio1 {
+.img-maos-dadas {
     height: 30rem;
-    transform: translate(20%);
     opacity: 0.6;
+    margin-left: 15%;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }

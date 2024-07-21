@@ -97,7 +97,7 @@ nav ul a  {
 
 .div-ajuda{
   background: linear-gradient(to right, #fff8b1, #FFA000);
-  padding:3px;
+  padding:1rem;
   margin-bottom:40px;
   margin-top: 80px;
 
@@ -151,15 +151,15 @@ nav ul a  {
 
 }
 
+
+/* cris aqui alterei porque eu removi o fundo da imagem. */
 .img-pessoas-ajuda {
     position: absolute;
-    top:58%; 
+    top:50%; 
     right:0;
     transform: translateY(-50%);
     z-index: 1;
-    margin-bottom:20px;
-    width:449px;
-    height:auto;
+    height:250px;
     max-width: 100%;
   }
   
