@@ -33,18 +33,16 @@
     background: linear-gradient( to right,#fff8b1 , #ffd700);
     padding: 1rem;
     
+    
 }
 nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background: linear-gradient( to left,#eee9b7 , #ffd700);
-    gap: 10px;
-    padding: 5px;
 }
 
 
-/* refere-se aos links do navgation */
+/* refere-se aos href do navgation e parte do footer*/
 .links { 
     text-decoration: none;
     margin-left: .4rem;
@@ -61,6 +59,7 @@ nav {
     border-radius: 5px;
 }
 
+/* logo do topo */
 .logo-projeto-RS {
     height: 100px;
     padding: .5rem;
@@ -74,11 +73,11 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Altura total da janela */
+    height: 100vh;
     background: #ffe96f;
     padding: 1rem;
     background: #ffa704;
-    margin-top: .2rem;
+    margin-top: .1rem;
     margin-bottom: .2rem;    
 }
 header {
@@ -189,10 +188,8 @@ header img {
 }
 
 #img-dialogo:hover {
-    
     transform: scale(1.2);
     border-radius: 15px;
-
 }
 
 .text-desabafar {
