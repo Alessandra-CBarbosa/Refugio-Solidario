@@ -115,7 +115,8 @@
 .resumo-container {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 40px;
+    
 }
 
 .resumo-atendimento {
@@ -125,21 +126,205 @@
     text-align: center;
     width: 22%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
+    
 }
+
+
+.resumo-atendimento:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+
+
 
 .resumo-atendimento h2 {
     font-size: 2rem;
     margin: 0;
     color: #333;
+    transform: scale(1.2);
 }
 
 
 .resumo-atendimento h3 {
     font-size: 1.1rem;
     margin: 10px 0 0 0;
-    color: #777;
+    color: #777; 
 }
+
+.section-desabafar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.desabafar {
+    background-color: #fdda3f;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#a-href {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background: #fff8b1;
+    border-radius: 15px;
+    justify-content: center;
+    width: 13rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    color: black;
+    gap: 5px;
+    font-weight: 700;
+    translate: 220%;
+}
+
+#a-href:hover {
+    border: #eee9b7;
+    background: #ffffff;
+    transition: .5s;
+    border-radius: 15px;
+}
+
+#logo-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+#img-dialogo {
+    height: 15rem;
+    display: flex;
+    padding: 3rem;
+    transition: transform 0.5s ease;
+    translate: 180%;
+}
+
+#img-dialogo:hover {
+    
+    transform: scale(1.2);
+    border-radius: 15px;
+
+}
+
+.text-desabafar {
+    margin-left: 10%;
+}
+
+
+.img-apoio {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.tam-img-apoio {
+    height: 12rem;
+    margin-left: 5rem;
+}
+
+.tam-img-apoio1 {
+    height: 30rem;
+    transform: translate(20%);
+    opacity: 0.6;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.estatistica {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: .5rem;
+    background:#ffe96f;
+}
+
+
+#a-href-estatistica {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background: #fff8b1;
+    border-radius: 15px;
+    justify-content: center;
+    width: 12rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    color: black;
+    gap: 5px;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+#a-href-estatistica:hover {
+    border: #eee9b7;
+    background: #ffffff;
+    transition: .5s;
+    border-radius: 15px;
+}
+
+#logo-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.numeros-tentativas {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.numeros-tentativas01 {
+    background-color: #fdda3f;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 22%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.numeros-tentativas01 p {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+}
+
+.numeros-tentativas01 h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: #333;
+}
+
+.container-solidario {
+    display: grid;
+    grid-auto-columns: 2;
+    justify-items: center;
+    align-content: space-around;
+}
+
+
+.tam-img-solidario {
+    height: 25rem;
+
+}
+
+.tam-img-solidario01 {
+    height: 25rem;
+    
+}
+
+
 
 
 /* CSS - footer */
