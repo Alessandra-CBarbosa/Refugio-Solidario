@@ -4,21 +4,79 @@
     box-sizing: border-box;
 }
 
+/* todo e qualquer outro link associado como o whatsapp */
 .a-href {
     text-decoration: none;
     display: flex;
     align-items: center;
+    background: #fff8b1;
+    border-radius: 15px;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: solid;
     border-radius: 10px;
     width: 12rem;
     padding: 0.5rem;
+    margin-top: 0.5rem;
+    color: black;
+    gap: 5px;
+    font-weight: 700;
+}
+
+.a-href:hover {
+    border: #eee9b7;
+    background: #ffffff;
+    transition: .5s;
+    border-radius: 15px;
+}
+
+.navgation {
+    background: linear-gradient( to right,#fff8b1 , #ffd700);
+    padding: 1rem;
 }
 nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    border-radius: 5px;
+    margin-top: 1.5px;    
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+
+/* refere-se aos links do navgation */
+.links { 
+    text-decoration: none;
+    margin-left: .4rem;
+    color: #333;
+    font-weight: bold;
+    padding: .4rem;
+    
+}
+
+.links:hover {
+    border: #eee9b7;
+    background: #eee9b7;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.logo-projeto-RS {
+    height: 100px;
+    padding: .5rem;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;   
+}
+
+/* configuração do header */
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da janela */
+    background: #ffe96f;
     padding: 1rem;
     background: #ffa704;
     margin-top: .2rem;
@@ -32,30 +90,72 @@ header img {
     height: 100px;
 }
 
+/* definição padrão para o tamanho de todas as logos do whatsapp */
 .logo-whatsapp {
     height: 30px;
 }
 
+/* css do resumo de atendimento */
+.resumo-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.resumo-atendimento {
+    background-color: #fdda3f;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 22%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.resumo-atendimento h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: #333;
+}
+
+
+.resumo-atendimento h3 {
+    font-size: 1.1rem;
+    margin: 10px 0 0 0;
+    color: #777;
+}
 
 
 /* CSS - footer */
-.rede-sociais {
-    height: 30px;
-
-}
-.a-href-footer {
-    text-decoration: none;
-    text-align: center;
-}
-
-
-.href-image-footer {
+.footer-index {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    background: linear-gradient( to left,#eee9b7 , #ffd700);
+    gap: 10px;
+    padding: 5px;
 }
 
-#logo-projeto-RS-footer {
-    height: 80px;
+
+#logoProjetoFooter {
+    height: 50px;
+    margin-top: 5px;
+}
+
+
+.redeSociais {
+    height: 25px;
+    margin-left: .5rem;
+}
+
+
+.redeSociais:hover {
+    background:#ffffff;
+    border-radius: 30px;
+    transition: .3s;   
+}
+
+#copyright {
+    margin-top: -.5%;
 }
