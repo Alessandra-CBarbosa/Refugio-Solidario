@@ -2,12 +2,11 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="favicon/favicon-projeto.ico" type="image/x-icon" />
     <link rel="stylesheet" href="sejavoluntario.css">
     <title>Voluntariado</title>
 </head>
 <body>
-    
-
     
       <header class = "header">
         <nav>
@@ -28,7 +27,7 @@
         />
       </div>
       <div class="texto-voluntariado">
-       <h2>VOLUNTARIADO</h2>
+       <h1>VOLUNTARIADO</h1>
        <ul>
            <ol>O voluntariado do refugio solidário doa o seu</ol>
            <ol> tempo - 4 horas semanais - para conversar</ol>
@@ -39,41 +38,60 @@
        </ul> 
       </div>
       </header>
-  
-    
-      
-        <br/><br/><br/>
-    </section>
 
-    <!--Fiz um  formulário de cadastro de voluntário,falta requisitos e ajustar os detalhes -->
-    <section>
-        <h2>Cadastro de voluntário</h2>
+    </section>
+  </div>
+
+  <div class="requisitos-container">
+    <div class="titulo-requisitos">
+      <h2>Requisitos para se tornar um voluntário do Refúgio Solidário</h2>
+    </div>
+    <ul class="paragrafo-requisitos">
+        <li>✅ Ter mais de 18 anos;</li>
+        <li>✅ Participar de curso gratuito de mais de 30 horas de duração;</li>
+        <li>✅ Para se inscrever <strong>clique aqui</strong> preencha o formulário e receberá uma resposta em seu e-mail.
+        </li>
+    </ul>
+      </div>
+      <div class ="titulo-voluntario">
+      
+       <h3>Cadastro de voluntário</h3>
+       </div>
+    <section class="cadastro-voluntario">
+     
+      <div class="paragrafo-cadastro-voluntario">
+      <p><strong> Deixe seu cadastro no formulário abaixo e nossa resposta será enviada para seu email:</strong></p>
+        </div>
         <form>
             <ul>
+              <div class=" Formulario-voluntario">
                 <ol> <label for="nome">Nome:</label>
                  <input type="text" id="nome" name="nome"></ol>
             
                  <ol> <label for="email">E-mail:</label>
             <input type="email" id="email" name="email"></ol>
+            <ol> <label for="idade">Idade:</label>
+              <input type="text" id="idade" name="idade"></ol>
             
-            <ol><label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone"></ol>
+            <ol><label for="telefone/whatsapp">Telefone/whatsapp:</label>
+            <input type="tel" id="telefone/whatsapp" name="telefone/whatsapp"></ol>
+            <ol><label for="profissão">Profissão:</label>
+            <input type="text" id="profissão" name="profissão"></ol>
+            <ol><label for="Formação">Formação:</label>
+            <input type="text" id="Formação" name="Formação"></ol>
+            <ol><label for="Endereço">Endereço:</label>
+              <input type="text" id="Endereço" name="Endereço"></ol>
+             
+            </div>
             
-           <ol> <label for="cidade">Cidade:</label>
-            <input type="text" id="cidade" name="cidade"></ol>
-            
-            <ol><label for="estado">Estado:</label>
-            <input type="text" id="estado" name="estado"></ol>
-            
-            <ol><label for="area-interesse">Área de interesse:</label>
-            <input type="text" id="area-interesse" name="area-interesse"></ol>
-            
-            <ol><input type="checkbox" id="termos" name="termos">
-            <label for="termos">Concordo com os termos e condições</label></ol>
-            
-            <button type="submit">Enviar</button>
         </ul>
         </form>
+        <div class="botao-voluntario">
+              
+          <button onclick="location.href='mailto:refugiosolidariors@hotmail.com'">
+              Enviar 
+          </button>
+      </div>
     </section>
     <section id="ajuda">
       <div class="div-ajuda">
@@ -99,7 +117,7 @@
   
       
       <img class="img-pessoas-ajuda"
-        src="./img/homem-mulheres.png"
+        src="./img/homem-mulheres4.png"
         alt="Três pessoas conversando"
       >
     
