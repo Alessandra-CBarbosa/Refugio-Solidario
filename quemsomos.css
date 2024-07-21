@@ -14,6 +14,24 @@ nav {
     margin-top: 1.5px;
 }
 
+/* refere-se aos links do navgation */
+.links { 
+    text-decoration: none;
+    margin-left: .4rem;
+    color: #333;
+    font-weight: bold;
+    padding: .4rem;
+    
+}
+
+.links:hover {
+    border: #eee9b7;
+    background: #eee9b7;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+
 .logo-projeto-RS {
     height: 100px;
     padding: .5rem;
@@ -96,18 +114,22 @@ nav {
 
 /* CSS footer */
 .footerMissaoVisaoValores {
-    display: flex; 
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background: linear-gradient( to left,#eee9b7 , #ffd700);
+    gap: 10px;
+    padding: 5px;
 }
 
 #logoProjetoFooter {
-    height: 80px;
+    height: 50px;
+    margin-top: 5px;
 }
 
 .redeSociais {
-    height: 30px;
+    height: 25px;
     margin-left: .5rem;
     
 }
@@ -116,4 +138,9 @@ nav {
     background:#ffffff;
     border-radius: 30px;
     transition: .3s;
+}
+
+
+#copyright {
+    margin-top: -.5%;
 }

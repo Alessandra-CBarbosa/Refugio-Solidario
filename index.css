@@ -1,4 +1,6 @@
 * {
+    font-family:Arial, sans-serif;
+    color: #000000;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,11 +11,9 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    background: #fff8b1;
-    border-radius: 15px;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: solid;
+    background: #fdda3f;
     border-radius: 10px;
     width: 12rem;
     padding: 0.5rem;
@@ -24,7 +24,6 @@
 }
 
 .a-href:hover {
-    border: #eee9b7;
     background: #ffffff;
     transition: .5s;
     border-radius: 15px;
@@ -33,15 +32,15 @@
 .navgation {
     background: linear-gradient( to right,#fff8b1 , #ffd700);
     padding: 1rem;
+    
 }
 nav {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    border-radius: 5px;
-    margin-top: 1.5px;    
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
+    background: linear-gradient( to left,#eee9b7 , #ffd700);
+    gap: 10px;
+    padding: 5px;
 }
 
 
