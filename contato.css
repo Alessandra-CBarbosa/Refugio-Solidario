@@ -161,7 +161,7 @@ body {
 /* Cris aqui também tive que mudar só o top de 57 para 55, pouca coisa */
 .img-pessoas-ajuda {
     position: absolute;
-    top:55%; 
+    top:56%; 
     right:0;
     transform: translateY(-50%);
     z-index: 1;

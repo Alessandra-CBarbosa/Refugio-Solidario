@@ -155,7 +155,7 @@ nav ul a  {
 /* cris aqui alterei porque eu removi o fundo da imagem. */
 .img-pessoas-ajuda {
     position: absolute;
-    top:50%; 
+    top:55%; 
     right:0;
     transform: translateY(-50%);
     z-index: 1;
