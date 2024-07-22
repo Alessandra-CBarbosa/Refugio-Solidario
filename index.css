@@ -5,7 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ body{
+    background-color: #f8f3b9;
+ }
 /* todo e qualquer outro link associado como o whatsapp */
 .a-href {
     text-decoration: none;
@@ -327,6 +329,74 @@ header {
 .tam-img-solidario01 {
     height: 25rem;
     
+}
+.container-solidario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; 
+    align-items: flex-start; 
+    width: 500px; 
+    margin-left: auto; 
+   margin-right:85px;
+}
+
+.tam-img-solidario,
+.tam-img-solidario01 {
+    width: 200px; 
+   height: auto;
+    margin: 5px;
+}
+.titulo-quemSomos-RefugioSolidario{
+  font-size:20px;
+  text-align: left;
+  height: 10px;
+  margin-left: 85px;
+  margin-top:30px;
+  font-weight: bold;
+}
+
+
+.paragrafo-solidario{
+    font-size:16px;
+    text-align: left;
+    height: 10px;
+    margin-left: 85px;
+    margin-top:100px;
+    padding-right:55%;
+}
+
+.equipe{
+    font-size:  26px;
+    text-align: center; 
+    margin-top:20px;
+    
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    
+    
+}
+.voluntariado{
+
+    font-size:  26px;
+    text-align: center; 
+    margin-top:20px;
+    
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+  }
+.paragrafo-voluntario{
+    font-size:  16px;
+    text-align: center; 
+    margin-top:20px;
+    
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
 }
 /* section do ajuda*/
 
