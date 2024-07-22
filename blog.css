@@ -16,7 +16,7 @@ body {
 
 header {
   background-color: #ffe082;
-  padding: 10px 0;
+  padding: 100px 0;
   
 }
 
@@ -34,7 +34,7 @@ header {
 nav {
   background: linear-gradient( to right,#fff8b1 , #ffd700  ); 
   padding: 10px 0; 
-  
+ 
 }
 
 nav ul  {
@@ -51,10 +51,21 @@ nav ul a  {
   font-weight: bold; 
   margin-right: 20px; 
 }
+.container-image {
+  position: absolute;
+  top:37%; 
+  right:0;
+  transform: translateY(-50%);
+  z-index: 1;
+  margin-bottom:20px;
+  height:auto;
+  max-width: 100%;
+}
+
 
 .entry-buttons {
   display: flex;
-  justify-content: flex-end; /* Align buttons to the right */
+  justify-content: flex-end; 
   padding: 10px;
 }
 
