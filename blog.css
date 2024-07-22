@@ -61,8 +61,8 @@ nav ul a  {
 .new-entry-button,
 .edit-button {
   padding: 5px 10px;
-  background-color: #007bff;
-  color: white;
+  background-color: lightyellow;
+  color: black;
   border: none;
   cursor: pointer;
   margin-right: 10px;
@@ -75,7 +75,7 @@ nav ul a  {
 }
 
 .blog-entry {
-  background-color: white;
+  background-color: lightyellow;
   margin-bottom: 20px;
   padding: 15px;
   border: 1px solid #ddd;
