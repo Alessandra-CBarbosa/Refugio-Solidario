@@ -52,7 +52,44 @@ nav ul a  {
   margin-right: 20px; 
 }
 
+.entry-buttons {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  padding: 10px;
+}
 
+.new-entry-button,
+.edit-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-entry {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
 
 
 
