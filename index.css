@@ -7,6 +7,7 @@
 }
  body{
     background-color: #f8f3b9;
+    font-family:Arial, sans-serif;
  }
 /* todo e qualquer outro link associado como o whatsapp */
 .a-href {
@@ -119,7 +120,7 @@ header {
     background: #fac000;
 }
 
-/* definição padrão para o tamanho de todas as logos do whatsapp */
+/* definição padrão para o tamanho de todas as logos do whatsapp com exceção daquelas que recebem um id específico */
 .logo-whatsapp {
     height: 30px;
 }
@@ -334,42 +335,44 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end; 
-    align-items: flex-start; 
     width: 500px; 
     margin-left: auto; 
-   margin-right:85px;
+    margin-right: 100px;
 }
 
 .tam-img-solidario,
 .tam-img-solidario01 {
     width: 200px; 
-   height: auto;
+    height: auto;
     margin: 5px;
 }
+
 .titulo-quemSomos-RefugioSolidario{
-  font-size:20px;
-  text-align: left;
-  height: 10px;
-  margin-left: 85px;
-  margin-top:30px;
-  font-weight: bold;
+    font-size: 1.2rem;;
+    font-weight: bold;
+    height: 10px;
+    margin-left: 10rem;
+    margin-top:100px;
+    padding-right:45%;
 }
 
 
 .paragrafo-solidario{
-    font-size:16px;
-    text-align: left;
-    height: 10px;
-    margin-left: 85px;
-    margin-top:100px;
-    padding-right:55%;
+    font-size: 1.5rem;;
+    margin-left: 5rem;
+    margin-top:2rem;
+    color: white;
+    border-radius: 10px;
+    background:#fdda3f;
+    box-shadow: 1rem 1rem .5rem grey;
+    padding: 4rem;
 }
 
 .equipe{
     font-size:  26px;
     text-align: center; 
-    margin-top:20px;
-    
+    margin-top: 10vh;
+    padding: 2rem;
     display: flex;
     align-items: center;
    
@@ -380,24 +383,40 @@ header {
 .voluntariado{
 
     font-size:  26px;
-    text-align: center; 
-    margin-top:20px;
-    
+    text-align: center;    
     display: flex;
     align-items: center;
    
     justify-content: center;
-  }
-.paragrafo-voluntario{
-    font-size:  16px;
-    text-align: center; 
-    margin-top:20px;
-    
-    display: flex;
-    align-items: center;
-   
-    justify-content: center;
+    background: #fdda3f;
+    max-width: 25rem;
+    margin:auto;
+    border-radius: 10px;
+
 }
+
+
+.voluntariado a {
+    text-decoration: none;
+
+}
+
+.voluntariado:hover {
+    background: #b6b29f;
+}
+
+
+.paragrafo-voluntario{
+    font-size:  1.2rem;
+    text-align: center; 
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    padding: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 /* section do ajuda*/
 
 .div-ajuda{
@@ -429,7 +448,7 @@ header {
   }
   
   .texto-ajuda{
-    font-size:16px;
+    font-size: 1.2rem;
     text-align: left;
     height: 10px;
     margin-left: 85px;
@@ -452,22 +471,91 @@ header {
     margin-bottom:0px;
     padding: 0;
     margin-top: auto;
+    
+}
   
-  
-  }
-  
-  
+#contato-conosco {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background: #fff8b1;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin-top: 4rem;
+    color: black;
+    font-family:Arial, sans-serif;
+    justify-content: center;
+    width: 20rem;
+    margin-left: 5rem;
+    margin-right: auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#contato-conosco:hover {
+    background: #ffffff;
+    transition: .5s;
+}
+
 
   .img-pessoas-ajuda {
       position: absolute;
-      top:55%; 
+      top:58%; 
       right:0;
       transform: translateY(-50%);
       z-index: 1;
       height:250px;
       max-width: 100%;
     }
+
+.requisitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.requisitos p {
+    display: flex;
+    justify-content: center;
+}
+.bordas-icon {
+    border-radius: 10rem;
+    height: 5rem;
+    padding: 0.5rem;
     
+}
+
+
+.h2-requisitos {
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+
+.requisitos1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 20rem;
+    margin:auto;
+}
+
+
+.requisitos1:hover {
+    transform: scale(1.2);
+    border-radius: 15px;
+    transition: 0.5s;    
+}
+
+.requisitos1 a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
 
 /* CSS - footer */
 .footer-index {
