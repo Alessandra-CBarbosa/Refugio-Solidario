@@ -103,50 +103,73 @@ body {
 
 }
 
-.div-ajuda{
-  background: linear-gradient(to right, #fff8b1, #fada79);
-  padding:1rem;
-  margin-bottom:40px;
 
+  
+  .div-ajuda{
+    background: linear-gradient(to right, #fff8b1, #fada79);
+    padding:1rem;
+    margin-bottom:40px;
+    margin-top: 80px;
+  
+    }
+    
+    
+  .paragrafo-ajuda{
+    font-size: 16px;
+    text-align: left;
+    height: 10px;
+    margin-left: 85px;
+    margin-top:55px;
+    font-weight: bold;
   }
   
+  .titulo-ajuda{
+    font-size:20px;
+    text-align: left;
+    height: 10px;
+    margin-left: 85px;
+    margin-top:30px;
+    font-weight: bold;
   
-.paragrafo-ajuda{
-  font-size: 16px;
-  text-align: left;
-  height: 10px;
-  margin-left: 85px;
-  margin-top:80px;
-  font-weight: bold;
-}
-
-.titulo-ajuda{
-  font-size:20px;
-  text-align: left;
-  height: 10px;
-  margin-left: 85px;
-  margin-top:30px;
-  font-weight: bold;
-
-}
-
-.texto-ajuda{
-  font-size:16px;
-  text-align: left;
-  height: 10px;
-  margin-left: 85px;
-  margin-top:35px;
-  padding-right:55%;
+  }
   
-
-
-}
+  .texto-ajuda{
+    font-size:16px;
+    text-align: left;
+    height: 10px;
+    margin-left: 85px;
+    margin-top:35px;
+    padding-right:55%;
+    
+  
+  
+  }
 .imagem-whatsapp{
 
-  margin-left: 85px;
-  margin-top: 55px;
- 
+  margin-left:50px;
+  margin-top:15px;
+  justify-content:flex-start;
   
+}
+#contato-whatsapp{
+  
+  display: flex;
+  text-decoration: none;
+  font-size:18px;
+  margin-left:35px;
+  margin-top:35px;
+   
+}
+.contato-conosco{
+  
+  
+  text-align: left;
+  height: 10px;
+  margin-left:30px;
+  margin-top:20px;
+  padding-right:55%;
+  justify-content:flex-start;
+  color: black;
 }
 
 #ajuda {
@@ -158,16 +181,16 @@ body {
 
 }
 
-/* Cris aqui também tive que mudar só o top de 57 para 55, pouca coisa */
+
 .img-pessoas-ajuda {
-    position: absolute;
-    top:56%; 
-    right:0;
-    transform: translateY(-50%);
-    z-index: 1;
-    margin-bottom:20px;
-    height:auto;
-    max-width: 100%;
+  position: absolute;
+  top:53%; 
+  right:0;
+  transform: translateY(-50%);
+  z-index: 1;
+  margin-bottom:20px;
+  height:250px;
+  max-width: 100%;
   }
 
 
