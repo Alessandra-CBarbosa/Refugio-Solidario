@@ -1,4 +1,4 @@
-* { /* header e barra de navegação*/
+* { 
   font-family:Arial, sans-serif;
   color: #000000;
   margin: 0;
@@ -6,11 +6,9 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
- 
   margin: 0;
   padding: 0;
-  background-color: #f0eeee;
+  background-color: #fff3d0;
 }
 
 header {
@@ -51,16 +49,36 @@ nav ul a  {
 }
 .container-image {
   position: absolute;
-  top:37%; 
-  right:0;
-  transform: translateY(-50%);
+  top: 34%; 
+  left:50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
-  margin-bottom:20px;
-  height:auto;
+  margin-bottom: 20px;
+  height: auto;
   max-width: 100%;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
+.logo{
+  width:7px;
+  height:70px;
+  justify-content:flex-start;
+  display: flex;
+  margin-left:40px;
+  top:50%;
+}
+.blog{
+   font-size:20px;
+    text-align: left;
+    height: 10px;
+    margin-left:44px;
+    margin-top:30px;
+    font-weight: bold;
+  
+}
 .entry-buttons {
   display: flex;
   justify-content: flex-end; 
