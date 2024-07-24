@@ -6,6 +6,7 @@
     <link rel="preconnect" href="htpps://fonts.gloogleapis.com" />
     <link rel="preconnect" href="htpps://fonts.gstatic.com" />
     <link rel="stylesheet" href="contato.css" />
+    
     <title>Contato</title>
   </head>
   <body>
@@ -42,18 +43,17 @@
         </div>
         
         <div class="Formulario-email">
-        <input type="text" id="nome" name="nome" placeholder="Nome" />
-    <input type="email" id="email" name="email" placeholder="Email" />
-    <textarea id="sugestao" name="sugestao" placeholder="Sugestão" rows="8"></textarea>
-    </div>
+          <input type="text" id="nome" name="nome" placeholder="Nome" />
+          <input type="email" id="email" name="email" placeholder="Email" />
+          <textarea id="sugestao" name="sugestao" placeholder="Sugestão" rows="8"></textarea>
+      </div>
       
-
-        </form>
-        <div class="botao-email">
-          <button onclick="location.href='mailto:refugiosolidariors@hotmail.com'">
+      <div class="botao-email">
+          <button id="enviarEmail">
               Enviar Email
           </button>
       </div>
+      
         <div class =" localizacao">
         <p><strong> Localização </strong></p>
         </div>
@@ -176,5 +176,6 @@
         </div>
       </footer>
     </section>
+    <script src="contato.js"></script>
   </body>
 </html>
