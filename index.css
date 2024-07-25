@@ -9,6 +9,24 @@
     background-color: #f8f3b9;
     font-family:Arial, sans-serif;
  }
+
+
+.video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: .5rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+video {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
 /* todo e qualquer outro link associado como o whatsapp */
 .a-href {
     text-decoration: none;
