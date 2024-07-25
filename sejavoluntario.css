@@ -98,7 +98,7 @@ nav ul a  {
 .div-ajuda{
   background: linear-gradient(to right, #fff8b1, #FFA000);
   padding:1rem;
-  margin-bottom:40px;
+  margin-bottom:25px;
   margin-top: 80px;
 
   }
@@ -152,7 +152,6 @@ nav ul a  {
 }
 .contato-conosco{
   
-  
   text-align: left;
   height: 10px;
   margin-left:30px;
@@ -162,14 +161,6 @@ nav ul a  {
   color: black;
 }
 
-#ajuda {
-  position:relative;
-  margin-bottom:0px;
-  padding: 0;
-  margin-top: auto;
-
-
-}
 
 #ajuda {
   position:relative;
@@ -216,6 +207,7 @@ nav ul a  {
   }
 
 .Formulario-voluntario input,
+
 .Formulario-voluntario textarea {
   display: block;
   margin-bottom: 10px; 

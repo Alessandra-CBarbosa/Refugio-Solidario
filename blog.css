@@ -13,8 +13,12 @@ body {
 
 header {
   background-color: #ffe082;
-  padding: 100px 0;
-  
+  padding:20px 0; 
+  position:relative;
+  z-index: 100;
+
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header .nav-item:hover {
@@ -24,13 +28,10 @@ header {
   text-decoration: none;
 }
 
-
-
 nav {
-  background: linear-gradient( to right,#fff8b1 , #ffd700  ); 
+  background: linear-gradient( to right,#fff8b1 , #FFA000  ); 
   padding: 10px 0; 
-  position: relative; 
-  top: -75px; 
+  
 }
 
 nav ul  {
@@ -46,21 +47,24 @@ nav ul a  {
   color: #000000; 
   font-weight: bold; 
   margin-right: 20px; 
+
 }
 .container-image {
-  position: absolute;
-  top: 34%; 
-  left:50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  top:200%; 
+  left: 50%;
+  transform: translate(-50%);
   z-index: 1;
   margin-bottom: 20px;
-  height: auto;
+  height:auto;
   max-width: 100%;
   opacity: 0.6;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
+
 
 .logo{
   width:7px;
@@ -77,6 +81,7 @@ nav ul a  {
     margin-left:44px;
     margin-top:30px;
     font-weight: bold;
+    top:-50,0;
   
 }
 .entry-buttons {
@@ -119,24 +124,24 @@ p {
 }
 
 
-
-  /* css footer definitivo*/
-.rodape {
-  background-color: #FFD700;
-  padding:0;
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(to right, #fff8b1, #ffd700);
-  width: 100%;
-  justify-content: center;
-  text-align: center;
-}
-
+  /* aqui está o footer*/
+  .rodape {
+    background-color: #FFD700;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #fff8b1 , #FFA000);
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+  }
+  
 .logo-RS img {
   width: 60px;
   height: 60px;
-  justify-content:flex-start;
+  justify-content: flex-start;
   display: flex;
 }
 
@@ -153,16 +158,11 @@ p {
 
 .icones-sociais a {
   margin: 0 10px;
-  
 }
 
 .icones-sociais img {
   width: 30px;
   height: 30px;
- 
-
- 
- 
 }
 
 .direitos {
@@ -171,30 +171,28 @@ p {
   font-size: 14px;
 }
 
-
-
-.nav-icone{
-  display:flex;
+.nav-icone {
+  display: flex;
   justify-content: center;
-  
 }
+
 .rodape .nav {
   display: flex;
   justify-content: center;
-  margin-top: 10px; 
-  
+  margin-top: 10px;
 }
 
 .rodape nav {
   margin-bottom: 16px;
- display: flex;
- justify-content: center;
-  padding:0px;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
 }
-.nav-rodape:hover{
+
+.nav-rodape:hover {
   border-bottom: 2px solid #747263;
   color: #808080;
   margin-left: 10px;
   text-decoration: none;
-
 }
+
