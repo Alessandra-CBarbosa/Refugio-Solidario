@@ -215,53 +215,54 @@ nav ul a  {
     margin-top: 100px;
   }
 
-  .Formulario-voluntario input,
-  .Formulario-voluntario textarea{
+.Formulario-voluntario input,
+.Formulario-voluntario textarea {
   display: block;
   margin-bottom: 10px; 
-  width:25%; 
+  width: 25%; 
   box-sizing: border-box; 
   color: #353333; 
   border: 1px solid #6b6a6a; 
   border-radius: 5px; 
   padding: 10px; 
-  }
+}
 
-  .Formulario-voluntario {
-    font-size: 16px;
-    text-align: left;
-    margin-left: 85px;
-    margin-top:50px;
-   
-  }
-  
-  .botao-voluntario{
-    
-      display: inline-block;
-      padding: 10px 20px;
-      font-size: 15px;
-      text-align: center;
-      text-decoration: none;
-      color: #ffffff;
-      background: linear-gradient(to right, #fff8b1, #FFA000);
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-      border: none;
-      margin-left: 85px;
-      margin-top: 50px;
-    }
-    .botao-voluntario button {
-      color: gray;
-      background: none;
-      border: none;
-      cursor: pointer;
-    }
-  .cadastro-voluntario{
-    border: 3px solid #ffe082;
-    margin-right:85px ;
-    margin: 35px 35px; 
-    padding: 20px 20px; 
-  }
+.Formulario-voluntario {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 85px;
+  margin-top: 50px;
+}
+
+.botao-voluntario {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #fff8b1, #FFA000);
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  border: none;
+  margin-left: 85px;
+  margin-top: 50px;
+}
+
+.botao-voluntario button {
+  color: gray;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cadastro-voluntario {
+  border: 3px solid #ffe082;
+  margin-right: 85px;
+  margin: 35px 35px; 
+  padding: 20px 20px; 
+}
+
   /* css do footer */
 .rodape {
   background-color: #FFD700;
