@@ -84,6 +84,13 @@ nav {
     font-weight: bold;
 }
 
+
+.encontre-me {
+    display: flex;
+    gap: .5rem
+}
+
+
 #logo-rede-sociais {
    height: 30px;
 }
