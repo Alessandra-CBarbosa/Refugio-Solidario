@@ -24,3 +24,4 @@ document.getElementById('enviarVoluntario').addEventListener('click', function(e
         window.location.href = mailtoLink;
     }
 });
+

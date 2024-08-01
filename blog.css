@@ -138,12 +138,16 @@ p {
     z-index: 1;
   }
   
-.logo-RS img {
-  width: 60px;
-  height: 60px;
-  justify-content: flex-start;
-  display: flex;
-}
+  .logo-RS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-RS img {
+    width: 55px;
+    height: 55px;
+  }
 
 .nav ul {
   list-style-type: none;

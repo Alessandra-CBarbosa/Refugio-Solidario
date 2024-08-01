@@ -80,6 +80,7 @@ body {
   border: none;
   margin-left: 85px;
   margin-top: 50px;
+  cursor:pointer;
 }
 
 .botao-email button {
@@ -195,107 +196,84 @@ body {
 
 
 
-header {
-  background-color: #ffe082;
-  padding: 10px 0;
+  header {
+   
+    padding: 10px 0;
+    position: relative;
+    background: #fff8b1;
+    margin-top: .2rem;
+  }
+  
+  .header .nav-item:hover {
+    border-bottom: 2px solid #747263;
+    color: #808080;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  nav {
+    background: linear-gradient( to right,#fff8b1 , #ffd700);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 5px;
+    margin-top: 1.5px;
 }
 
-.header .nav-item:hover {
-  border-bottom: 2px solid #747263;
-  color: #808080;
-  margin-left: 10px;
+
+.links {
   text-decoration: none;
-}
-
-nav {
-  background: linear-gradient(to right, #fff8b1, #ffd700);
-  padding: 10px 0;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: flex-end;
-}
-
-nav ul a {
-  text-decoration: none;
-  color: #000000;
+  margin-left: .4rem;
+  color: #333;
   font-weight: bold;
-  margin-right: 20px;
+  padding: .4rem;
 }
+.links:hover {
+  border: #eee9b7;
+  background: #eee9b7;
+  transition: .5s;
+  border-radius: 5px;
+}
+
+
+.logo-projeto-RS {
+    height: 100px;
+    padding: .5rem;
+    
+}
+
 
 /* Aqui está o footer*/
 
-  .rodape {
-    background-color: #FFD700;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(to right, #fff8b1, #ffd700);
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    z-index: 1;
-  }
+.footerMissaoVisaoValores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient( to right,#fff8b1 , #ffd700);
+  gap: 10px;
+  padding: 5px;
+}
+
+#logoProjetoFooter {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.redeSociais {
+  height: 25px;
+  margin-left: .5rem;
   
-.logo-RS img {
-  width: 60px;
-  height: 60px;
-  justify-content: flex-start;
-  display: flex;
 }
 
-.nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+.redeSociais:hover {
+  background:#ffffff;
+  border-radius: 30px;
+  transition: .3s;
 }
 
-.nav ul li {
-  margin-right: 20px;
-}
 
-.icones-sociais a {
-  margin: 0 10px;
-}
-
-.icones-sociais img {
-  width: 30px;
-  height: 30px;
-}
-
-.direitos {
-  color: black;
-  text-align: center;
-  font-size: 14px;
-}
-
-.nav-icone {
-  display: flex;
-  justify-content: center;
-}
-
-.rodape .nav {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.rodape nav {
-  margin-bottom: 16px;
-  display: flex;
-  justify-content: center;
-  padding: 0px;
-}
-
-.nav-rodape:hover {
-  border-bottom: 2px solid #747263;
-  color: #808080;
-  margin-left: 10px;
-  text-decoration: none;
+#copyright {
+  margin-top: -.5%;
 }

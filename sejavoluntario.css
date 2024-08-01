@@ -17,45 +17,57 @@ body {
   
   
 header {
-  background-color: #ffe082;
+   
   padding: 10px 0;
-  
+  position: relative;
+  background: #ffe082;
+  margin-top: .2rem;
 }
-
-
 
 .header .nav-item:hover {
   border-bottom: 2px solid #747263;
-  color: #bebcbc;
+  color: #808080;
   margin-left: 10px;
   text-decoration: none;
+}
+
+nav {
+  background: linear-gradient( to right,#fff8b1 , #FFA000  ); 
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 5px;
+  margin-top: 1.5px;
+}
+
+
+.links { 
+  text-decoration: none;
+  margin-left: .4rem;
+  color: #333;
+  font-weight: bold;
+  padding: .4rem;
+  
+}
+
+.links:hover {
+  border: #eee9b7;
+  background: #eee9b7;
+  transition: .5s;
+  border-radius: 5px;
+}
+
+
+.logo-projeto-RS {
+  height: 100px;
+  padding: .5rem;
+  
 }
 
 .texto-voluntariado{
   text-align: center;
   
-}
-
-nav {
-  background: linear-gradient( to right,#fff8b1 , #FFA000  ); 
-  padding: 10px 0; 
-  
-}
-
-nav ul  {
-  list-style-type: none; 
-  margin: 0;
-  padding: 0;
-  display: flex; 
-  justify-content:flex-end; 
-}
-
-nav ul a  {
-  text-decoration: none; 
-  color: #000000; 
-  font-weight: bold; 
-  margin-right: 20px; 
-
 }
 
 .requisitos-container {
@@ -206,47 +218,48 @@ nav ul a  {
     margin-top: 100px;
   }
 
-.Formulario-voluntario input,
+  .Formulario-voluntario input,
 
-.Formulario-voluntario textarea {
-  display: block;
-  margin-bottom: 10px; 
-  width: 25%; 
-  box-sizing: border-box; 
-  color: #353333; 
-  border: 1px solid #6b6a6a; 
-  border-radius: 5px; 
-  padding: 10px; 
-}
-
-.Formulario-voluntario {
-  font-size: 16px;
-  text-align: left;
-  margin-left: 85px;
-  margin-top: 50px;
-}
-
-.botao-voluntario {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 15px;
-  text-align: center;
-  text-decoration: none;
-  color: #ffffff;
-  background: linear-gradient(to right, #fff8b1, #FFA000);
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  border: none;
-  margin-left: 85px;
-  margin-top: 50px;
-}
-
-.botao-voluntario button {
-  color: gray;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
+  .Formulario-voluntario textarea {
+    display: block;
+    margin-bottom: 10px; 
+    width: 25%; 
+    box-sizing: border-box; 
+    color: #353333; 
+    border: 1px solid #6b6a6a; 
+    border-radius: 5px; 
+    padding: 10px; 
+  }
+  
+  .Formulario-voluntario {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 85px;
+    margin-top: 50px;
+  }
+  
+  .botao-voluntario {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(to right, #fff8b1, #FFA000);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+    margin-left: 85px;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+  
+  .botao-voluntario button {
+    color: gray;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
 
 .cadastro-voluntario {
   border: 3px solid #ffe082;
@@ -256,80 +269,34 @@ nav ul a  {
 }
 
   /* css do footer */
-.rodape {
-  background-color: #FFD700;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(to right, #fff8b1, #FFA000);
-  width: 100%;
-  justify-content: center;
-  text-align: center;
+  .footerMissaoVisaoValores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( to right, #fff8b1, #FFA000);
+    gap: 10px;
+    padding: 5px;
 }
 
-.logo-RS img {
-  width: 60px;
-  height: 60px;
-  justify-content:flex-start;
-  display: flex;
+#logoProjetoFooter {
+    height: 50px;
+    margin-top: 5px;
 }
 
-.nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+.redeSociais {
+    height: 25px;
+    margin-left: .5rem;
+    
 }
 
-.nav ul li {
-  margin-right: 20px;
-}
-
-.icones-sociais a {
-  margin: 0 10px;
-  
-}
-
-.icones-sociais img {
-  width: 30px;
-  height: 30px;
- 
-
- 
- 
-}
-
-.direitos {
-  color: black;
-  text-align: center;
-  font-size: 14px;
+.redeSociais:hover {
+    background:#ffffff;
+    border-radius: 30px;
+    transition: .3s;
 }
 
 
-
-.nav-icone{
-  display:flex;
-  justify-content: center;
-  
-}
-.rodape .nav {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px; 
-  
-}
-
-.rodape nav {
-  margin-bottom: 16px;
- display: flex;
- justify-content: center;
-  padding:0px;
-}
-.nav-rodape:hover{
-  border-bottom: 2px solid #747263;
-  color: #808080;
-  margin-left: 10px;
-  text-decoration: none;
-
+#copyright {
+    margin-top: -.5%;
 }
