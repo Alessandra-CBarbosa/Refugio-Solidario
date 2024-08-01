@@ -10,6 +10,21 @@
     font-family:Arial, sans-serif;
  }
 
+.voltar {
+    position: fixed;
+    right: 15px;
+    bottom: 80px;
+    border-radius: 100%;
+    background: #f8f3b9;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    opacity: 100%;
+    transition: opacity 0.4s all;
+    z-index: 9999;
+    height: 45px;
+    width: 45px;
+}
 
 .video-container {
     display: flex;
