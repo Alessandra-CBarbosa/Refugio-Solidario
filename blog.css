@@ -12,13 +12,11 @@ body {
 }
 
 header {
-  background-color: #ffe082;
-  padding:20px 0; 
-  position:relative;
-  z-index: 100;
-
-  left: 50%;
-  transform: translateX(-50%);
+   
+  padding: 10px 0;
+  position: relative;
+  background: #ffe082;
+  margin-top: .2rem;
 }
 
 .header .nav-item:hover {
@@ -30,33 +28,39 @@ header {
 
 nav {
   background: linear-gradient( to right,#fff8b1 , #FFA000  ); 
-  padding: 10px 0; 
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 5px;
+  margin-top: 1.5px;
+}
+
+
+.links { 
+  text-decoration: none;
+  margin-left: .4rem;
+  color: #333;
+  font-weight: bold;
+  padding: .4rem;
   
 }
 
-nav ul  {
-  list-style-type: none; 
-  margin: 0;
-  padding: 0;
-  display: flex; 
-  justify-content:flex-end; 
+.links:hover {
+  border: #eee9b7;
+  background: #eee9b7;
+  transition: .5s;
+  border-radius: 5px;
 }
 
-nav ul a  {
-  text-decoration: none; 
-  color: #000000; 
-  font-weight: bold; 
-  margin-right: 20px; 
-
-}
 .container-image {
   position: relative;
   top:200%; 
   left: 50%;
   transform: translate(-50%);
   z-index: 1;
-  margin-bottom: 20px;
-  height:auto;
+  margin-bottom:0px;
+  height:300px;
   max-width: 100%;
   opacity: 0.6;
   display: flex;
@@ -65,15 +69,14 @@ nav ul a  {
   
 }
 
-
-.logo{
-  width:7px;
-  height:70px;
+.logo {
+  margin-left:50px;
+  margin-top:15px;
   justify-content:flex-start;
-  display: flex;
-  margin-left:40px;
-  top:50%;
+  width:80px;
+  height: 80px;
 }
+
 .blog{
    font-size:20px;
     text-align: left;
@@ -125,78 +128,34 @@ p {
 
 
   /* aqui está o footer*/
-  .rodape {
-    background-color: #FFD700;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  .footerMissaoVisaoValores {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to right, #fff8b1 , #FFA000);
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    z-index: 1;
-  }
-  
-  .logo-RS {
-    display: flex;
-    justify-content: center;
     align-items: center;
-  }
-  
-  .logo-RS img {
-    width: 55px;
-    height: 55px;
-  }
-
-.nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+    justify-content: center;
+    background: linear-gradient( to right, #fff8b1, #FFA000);
+    gap: 10px;
+    padding: 5px;
 }
 
-.nav ul li {
-  margin-right: 20px;
+#logoProjetoFooter {
+    height: 50px;
+    margin-top: 5px;
 }
 
-.icones-sociais a {
-  margin: 0 10px;
+.redeSociais {
+    height: 25px;
+    margin-left: .5rem;
+    
 }
 
-.icones-sociais img {
-  width: 30px;
-  height: 30px;
+.redeSociais:hover {
+    background:#ffffff;
+    border-radius: 30px;
+    transition: .3s;
 }
 
-.direitos {
-  color: black;
-  text-align: center;
-  font-size: 14px;
-}
 
-.nav-icone {
-  display: flex;
-  justify-content: center;
+#copyright {
+    margin-top: -.5%;
 }
-
-.rodape .nav {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.rodape nav {
-  margin-bottom: 16px;
-  display: flex;
-  justify-content: center;
-  padding: 0px;
-}
-
-.nav-rodape:hover {
-  border-bottom: 2px solid #747263;
-  color: #808080;
-  margin-left: 10px;
-  text-decoration: none;
-}
-
